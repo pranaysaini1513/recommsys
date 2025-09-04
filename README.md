@@ -14,7 +14,7 @@ It contains the frontend, backend, and shared code in one repository.
 
 ## Project Structure
 
-recommsys/
+```recommsys/
 │
 ├── web/ # React + Vite frontend (TypeScript + Axios)
 ├── worker/ # Express + TypeScript backend (feeds API)
@@ -22,7 +22,7 @@ recommsys/
 ├── package.json # Root workspaces + scripts
 ├── package-lock.json
 └── README.md
-
+```
 ## Worker
 
 Backend service for recommsys.
